@@ -16,7 +16,7 @@
 
 但是我尝试了以下几种方式，都TM成功不了
 
-1.真实手机+360免费WIFI+Xposed忽略SSL证书错误
+## 1.真实手机+360免费WIFI+Xposed忽略SSL证书错误
 
 最开始电脑配置不行，安不了模拟器，想着用手机凑合下
 
@@ -26,7 +26,7 @@
 
 然后我找，用Xposed框架有个可以忽略SSL的插件，可是Xposed框架必须Root后才能安装，我华为，没法Root，于是用VirtualXposed框架，可以了，但是某些应用会闪退。
 
-2.模拟器+CCproxy+Proxifier+Fiddler
+## 2.模拟器+CCproxy+Proxifier+Fiddler
 
 模拟器网络设置为直连模式，别用桥接，否则你会被搞死的。
 
@@ -54,6 +54,6 @@ CCproxy用二级代理，二级代理设置为FIddler（HTTP代理），然后�
 
 
 
-
+### 注意：
 
 网络桥接模式，我试了无线，有限，手机USB共享网络，包括WIndows的防火墙端口也打开了，可是就是没法在模拟器内访问到电脑的端口。。倒是可以ping通。
